@@ -1,1 +1,3 @@
-# DL_Blog_Group_38.github.io
+# Reproduction for Exploring the Security Boundary of Data Reconstruction via Neuron Exclusivity Analysis
+
+### Author: Bogdan Simion and Haoran Wang
