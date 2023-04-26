@@ -24,7 +24,7 @@
 ### The fifth step involved reconstructing the data from the gradients and the losses. We start from a noise image and then, step by step we are reconstructing the image based on making the loss and the gradients closer and closer to the ground truth (the trained neural network).
 
 ## Results
-## We do not have any significant results as we did not manage to finish the paper reproduction in time, although we have some results for the network training part, which is shown below.
+### We do not have any significant results as we did not manage to finish the paper reproduction in time, although we have some results for the network training part, which is shown below.
 
 
 ## Issues
