@@ -16,7 +16,8 @@
 
 ### Despite the fact that this paper [1] used FNN and CNN to reconstruct the training data from RetinaMNIST [3] and ISIC skin cancer dataset[4], under the given short period of time within a single quarter, the TAs from this course asked us to reconstruct Figure 6 and Figure 8 in the paper. Figure 6 in the paper is about sampled reconstruction results on RetinaMNIST by using FNN and Figure 8 focuses on the Sampled results on the ISIC skin cancer dataset reconstructed from average gradient of VGG-13.  The authors of the paper [1] also implemented experiments related to the effectiveness of their method from preventing the leakage of the training data, which will not be implemented in this reconstruction project. 
 
-
+![alt text](https://github.com/Roywangxixixixixia/DL_Blog_Group_38.github.io/blob/main/RetinaMNIST.jpg?raw=true)
+![alt text](https://github.com/Roywangxixixixixia/DL_Blog_Group_38.github.io/blob/main/ISIC.png?raw=true)
 
 
 ## Methodology
