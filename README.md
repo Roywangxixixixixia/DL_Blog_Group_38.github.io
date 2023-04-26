@@ -3,7 +3,7 @@
 ### Group: 38
 ### Members: 
             
-   #### Bogdan Simion: 
+   #### Bogdan Simion: 5850185
    #### Haoran Wang: 
              
 ### This project was done in part to satisfy the requirements for the course Deep Learning(CS4240) at TU Delft.
