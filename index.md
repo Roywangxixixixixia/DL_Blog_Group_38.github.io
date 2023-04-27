@@ -23,9 +23,13 @@
 ### The fourth step and the most important one was to implement the algorithms presented in the paper: B.1, B.2 and B.3. The first algorithm is for determining the loss and the labels using the gradient at the last layer. The second algorithm is for determining the exact label reconstruction from the loss vector [1] and the last algorithm and the most important one is used for determining the activation patterns across the neural network.
 ### The fifth step involved reconstructing the data from the gradients and the losses. We start from a noise image and then, step by step we are reconstructing the image based on making the loss and the gradients closer and closer to the ground truth (the trained neural network).
 
+![alt text](https://github.com/Roywangxixixixixia/DL_Blog_Group_38.github.io/blob/main/RetinaMNIST.jpg?raw=true)
+![alt text](https://github.com/Roywangxixixixixia/DL_Blog_Group_38.github.io/blob/main/ISIC.png?raw=true)
+
 ## Results
 ### We do not have any significant results as we did not manage to finish the paper reproduction in time, although we have some results for the network training part, which is shown below.
 
+![alt text](https://github.com/Roywangxixixixixia/DL_Blog_Group_38.github.io/blob/main/training_loss.png?raw=true)
 
 ## Issues
 ### The issues related to reproducing the paper is that even though we finished the implementation of all the algorithms, we didn’t successfully run the algorithms in the paper. The main issue is that the gradient value is not guaranteed to be non-zero, and the algorithm took the first gradient value inside a layer as the denominator to calculate the common results after dividing the gradient of the current layer by the gradient of the previous layer. The reason for the failure of the reconstruction of the results could also be the misuse of the mathematical notations, which will be discussed in the next session. During the process of reproducing the paper, we did find the concept is easy to handle, the mathematical model is understandable on a conceptual level, but it is hard to implement the algorithm due to the vague connection between the algorithm and the description of the algorithm. 
